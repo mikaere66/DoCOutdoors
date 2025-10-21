@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alerts_work_man_upd_interval">
+        <item>@string/alerts_work_man_off</item>
+        <item>@string/alerts_work_man_daily</item>
+        <item>@string/alerts_work_man_weekly</item>
+    </string-array>
+
+    <string-array name="filter_dogs_by">
+        <item>@string/common_filter_by_none</item>
+        <item>@string/common_dogs_on_leash</item>
+        <item>@string/common_dogs_with_permit</item>
+        <item>@string/common_dogs_allowed</item>
+        <item>@string/common_dogs_none</item>
+    </string-array>
+
+    <!-- Matching drawable ids are hard-coded in HelpScreen -->
+    <string-array name="help_sections_string_ids">
+        <item>@string/help_intro</item>
+        <item>@string/help_lists</item>
+        <item>@string/help_items</item>
+        <item>@string/help_maps</item>
+        <item>@string/help_settings_auto_upd</item>
+        <item>@string/help_settings_filtering</item>
+        <item>@string/help_settings_extras</item>
+        <item>@string/help_settings_tracks</item>
+        <item>@string/help_settings_maps</item>
+    </string-array>
+
+</resources>

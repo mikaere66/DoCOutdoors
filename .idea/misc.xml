@@ -1,0 +1,128 @@
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" />
+  <component name="MarkdownProjectSettings">
+    <PreviewSettings splitEditorLayout="SPLIT" splitEditorPreview="PREVIEW" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="$ANDROID_EMULATOR_FORCE_32BIT$" highlightPreviewType="LINE" highlightFadeOut="5" highlightOnTyping="$ANDROID_EMULATOR_FORCE_32BIT$" synchronizeSourcePosition="$ANDROID_EMULATOR_FORCE_32BIT$" verticallyAlignSourceAndPreviewSyncPosition="$ANDROID_EMULATOR_FORCE_32BIT$" showSearchHighlightsInPreview="$ANDROID_EMULATOR_FORCE_32BIT$" showSelectionInPreview="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <PanelProvider>
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.panel" providerName="Default - Swing" />
+      </PanelProvider>
+    </PreviewSettings>
+    <ParserSettings gitHubSyntaxChange="false">
+      <PegdownExtensions>
+        <option name="ABBREVIATIONS" value="false" />
+        <option name="ANCHORLINKS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="ASIDE" value="false" />
+        <option name="ATXHEADERSPACE" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="AUTOLINKS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="DEFINITIONS" value="false" />
+        <option name="DEFINITION_BREAK_DOUBLE_BLANK_LINE" value="false" />
+        <option name="FENCED_CODE_BLOCKS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="FOOTNOTES" value="false" />
+        <option name="HARDWRAPS" value="false" />
+        <option name="HTML_DEEP_PARSER" value="false" />
+        <option name="INSERTED" value="false" />
+        <option name="QUOTES" value="false" />
+        <option name="RELAXEDHRULES" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="SMARTS" value="false" />
+        <option name="STRIKETHROUGH" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="SUBSCRIPT" value="false" />
+        <option name="SUPERSCRIPT" value="false" />
+        <option name="SUPPRESS_HTML_BLOCKS" value="false" />
+        <option name="SUPPRESS_INLINE_HTML" value="false" />
+        <option name="TABLES" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="TASKLISTITEMS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="TOC" value="false" />
+        <option name="WIKILINKS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      </PegdownExtensions>
+      <ParserOptions>
+        <option name="COMMONMARK_LISTS" value="false" />
+        <option name="DUMMY" value="false" />
+        <option name="EMOJI_SHORTCUTS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="FLEXMARK_FRONT_MATTER" value="false" />
+        <option name="GFM_LOOSE_BLANK_LINE_AFTER_ITEM_PARA" value="false" />
+        <option name="GFM_TABLE_RENDERING" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="GITBOOK_URL_ENCODING" value="false" />
+        <option name="GITHUB_EMOJI_URL" value="false" />
+        <option name="GITHUB_LISTS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="GITHUB_WIKI_LINKS" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+        <option name="JEKYLL_FRONT_MATTER" value="false" />
+        <option name="SIM_TOC_BLANK_LINE_SPACER" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      </ParserOptions>
+    </ParserSettings>
+    <HtmlSettings headerTopEnabled="false" headerBottomEnabled="false" bodyTopEnabled="false" bodyBottomEnabled="false" embedUrlContent="false" addPageHeader="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <GeneratorProvider>
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.generator" providerName="Default Swing HTML Generator" />
+      </GeneratorProvider>
+      <headerTop />
+      <headerBottom />
+      <bodyTop />
+      <bodyBottom />
+    </HtmlSettings>
+    <CssSettings previewScheme="UI_SCHEME" cssUri="" isCssUriEnabled="false" isCssTextEnabled="false" isDynamicPageWidth="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <StylesheetProvider>
+        <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.css" providerName="Default Swing Stylesheet" />
+      </StylesheetProvider>
+      <ScriptProviders />
+      <cssText />
+    </CssSettings>
+    <HtmlExportSettings updateOnSave="false" parentDir="$ProjectFileDir$" targetDir="$ProjectFileDir$" cssDir="" scriptDir="" plainHtml="false" imageDir="" copyLinkedImages="false" imageUniquifyType="0" targetExt="" useTargetExt="false" noCssNoScripts="false" linkToExportedHtml="$ANDROID_EMULATOR_FORCE_32BIT$" exportOnSettingsChange="$ANDROID_EMULATOR_FORCE_32BIT$" regenerateOnProjectOpen="false" />
+    <LinkMapSettings>
+      <textMaps />
+    </LinkMapSettings>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id>Android Lint: Correctness</id>
+          </State>
+          <State>
+            <id>Android Lint: Usability</id>
+          </State>
+          <State>
+            <id>EmbeddedPerformanceJava</id>
+          </State>
+          <State>
+            <id>ImportsJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>MemoryJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Resource managementJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructsJava</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="$ANDROID_EMULATOR_FORCE_32BIT$" project-jdk-name="jbr-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

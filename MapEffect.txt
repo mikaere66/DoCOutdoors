@@ -1,0 +1,34 @@
+
+To get a reference to the underlying MapView object when using the Google Maps Compose library, you can utilize the MapEffect composable. This allows you to access the full API surface of the Maps SDK for Android, even for features not directly exposed through the Compose extension.
+Here is an example of how to use MapEffect to obtain a MapView reference:
+Kotlin
+
+import com.google.maps.android.compose.GoogleMap
+import com.google.maps.android.compose.MapEffect
+import com.google.maps.android.compose.rememberCameraPositionState
+import com.google.android.gms.maps.MapView // Import the traditional MapView
+
+@Composable
+fun MyMapScreen() {
+    val cameraPositionState = rememberCameraPositionState()
+
+    GoogleMap(
+        cameraPositionState = cameraPositionState
+    ) {
+        // Use MapEffect to get a reference to the underlying MapView
+        MapEffect(Unit) { mapView: MapView ->
+            // Now you have access to the traditional MapView object
+            // You can use its methods and properties here
+            // For example, to add a listener or configure specific settings
+            // mapView.setOnMapClickListener { latLng -> /* handle click */ }
+            // mapView.getMapAsync { googleMap -> /* work with GoogleMap object */ }
+        }
+    }
+}
+Explanation:
+MapEffect(Unit) { mapView: MapView -> ... }:
+MapEffect is a composable that provides a MapView instance within its lambda.
+Unit is used as the key for MapEffect. This ensures the effect runs only once when the composable enters the composition and is not re-executed unless the key changes.
+The mapView: MapView parameter in the lambda provides the reference to the underlying MapView instance.
+Accessing MapView functionalities:
+Inside the MapEffect's lambda, you can now interact with the mapView object using methods and properties available in the traditional Maps SDK for Android. This includes setting listeners, configuring map settings, or accessing more advanced functionalities not directly exposed by the Compose library's higher-level composables.

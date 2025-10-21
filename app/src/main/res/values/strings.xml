@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="affected_icon_text">Alerts active</string><!-- Common -->
+    <string name="affected_icon_descr">Active alerts</string><!-- Common -->
+    <string name="affected_extra_date">Date:</string>
+    <string name="affected_extra_detail"><![CDATA[<B>Details:</B> %s]]></string>
+    <string name="affected_extra_header"><![CDATA[<B>Alert
+        %1$d of %2$d:</B> %3$s]]></string>
+    <string name="affected_filter_by">Filter affected assets by:</string>
+    <string name="affected_map">Alert Map</string>
+    <string name="affected_not_downloaded">D/load affected assets first!</string>
+    <string name="affected_subtitle">Assets affected (showing %1$d of %2$d)</string>
+    <string name="alerts_affected_button">View Affected Assets (%d)</string>
+    <string name="alerts_affected_header">DoC assets affected: %d</string>
+    <string name="alerts_affected_link_desc">External web link</string>
+    <string name="alerts_affected_placeholder">View Affected Assets</string>
+    <string name="alerts_affected_type">Asset type: %s</string>
+    <string name="alerts_affected_map">Map view of affected asset</string>
+    <string name="alerts_alleviated_all_read">%d marked as Read</string>
+    <string name="alerts_alleviated_read">(read)</string>
+    <string name="alerts_alleviated_restored">Restored %d alerts</string>
+    <string name="alerts_alleviated_unread">(unread)</string>
+    <string name="alerts_button_dl">Download alerts</string>
+    <string name="alerts_button_upd">Update alerts</string>
+    <string name="alerts_current_count">%d alerts Nationwide</string>
+    <string name="alert_details_description"><![CDATA[<B>Description:</B> %s]]></string>
+    <string name="alert_details_doc_link">DoC link to affected asset</string>
+    <string name="alert_details_end">End date:</string>
+    <string name="alert_details_end_tba">To be advised</string>
+    <string name="alert_details_start">Start date:</string>
+    <string name="alerts_button">View Alerts</string>
+    <string name="alerts_dload_count">Found %d alerts</string>
+    <string name="alerts_dload_not_found">DoC says Alert not found</string>
+    <string name="alerts_dload_text">Tap button to download more info
+        for this alert, i.e. which DoC assets are affected</string>
+    <string name="alerts_filter_by">Filter alerts by Region</string>
+    <plurals name="alerts_filter">
+        <item quantity="one">%1$d alert in %2$s region</item>
+        <item quantity="other">%1$d alerts in %2$s region</item>
+    </plurals>
+    <string name="alerts_header">Alerts List</string>
+    <string name="alerts_none">Alerts region not set</string>
+    <string name="alerts_sort_by_latest"><![CDATA[Sort alerts by Latest
+        <BR>(off to Sort by Name)]]></string>  <!-- Also values-w600dp -->
+    <string name="alerts_subtitle">Alert Details</string>
+    <string name="alerts_work_manager">Automatically update alerts
+        \n(only if filtered by region)</string><!-- Also values-w600dp -->
+    <string name="alerts_work_man_title">Auto Update Interval</string>
+    <string name="alerts_work_man_off">Do not Auto update</string>
+    <string name="alerts_work_man_daily">Daily</string>
+    <string name="alerts_work_man_weekly">Weekly</string>
+    <string name="alerts_work_man_currently">Currently: %s</string>
+    <string name="alerts_work_man_not_saved">Not saved: %s</string>
+    <string name="alerts_work_man_save">Save</string>
+    <string name="alerts_work_man_msg"><![CDATA[If enabling,
+        remember Save button!<BR><BR>If you wish for Auto Update
+        to run on<BR>a <B>specific day</B> of the week, wait
+        until<BR><I>that</I> day before enabling this feature]]></string>
+    <string name="alerts_work_man_options">Auto update Options</string>
+    <string name="alerts_work_man_lte"><![CDATA[Allow use of
+        Mobile data<BR>(off to wait for unmetered)]]></string>
+    <string name="alerts_work_man_allow_notif">Show
+        notification for Alert update</string>
+    <string name="alerts_work_man_chg"><![CDATA[Wait until Device charging
+        <BR>(i.e. overnight, when idle)]]></string><!-- Also values-w600dp -->
+    <plurals name="alerts_work_man_notif">
+          <item quantity="one">%1$d new alert for %2$s</item><!-- [region] -->
+        <item quantity="other">%1$d new alerts for %2$s</item>
+    </plurals>
+    <string name="alerts_work_man_log">%1$s alerts download: %2$d</string>
+    <string name="alerts_work_man_notif">Auto updating Alerts &#8230;</string>
+    <string name="alerts_work_man_enqu">Work is enqueued</string>
+    <string name="alerts_work_man_runs">Work is running</string>
+    <string name="alerts_work_man_succ">Work succeeded</string>
+    <string name="alerts_work_man_fail">Work failed</string>
+    <string name="alerts_work_man_canc">Work cancelled</string>
+    <string name="alerts_work_man_bloc">Work is blocked</string>
+
+    <string name="app_name">DoC Outdoors</string>
+    <string name="app_subtitle">Discover the Outdoors</string>
+    <string name="app_title">DoC %s</string>
+    <string name="app_title_sub">Outdoors</string>
+
+    <string name="back_button">Back</string>
+    <string name="background_description">Background image</string>
+
+    <string name="back_to_top">Back to Top</string>
+
+    <string name="campsites_button_dl">Download campsites</string>
+    <string name="campsites_button_upd">Update campsites</string>
+    <string name="campsites_current_count">%1$d campsites Nationwide</string>
+    <string name="campsite_details_access">Access:</string>
+    <string name="campsite_details_activities">Activities:</string>
+    <string name="campsite_details_doc_link"><![CDATA[<B>Campsite link:</B> %s]]></string>
+    <string name="campsite_details_image">Campsite image</string>
+    <string name="campsite_details_landscape">Landscape:</string>
+    <string name="campsite_details_powered_sites">Powered sites:</string>
+    <string name="campsite_details_unpowered_sites">Unpowered:</string>
+    <string name="campsites_button">View Campsites</string>
+    <string name="campsites_dload_all"><![CDATA[Also download campsite
+        extras<BR>(only if filtered by region)]]></string><!-- Also values-w600dp -->
+    <string name="campsites_dload_count">Found %d campsites</string>
+    <string name="campsites_dload_not_found">DoC says Campsite not found</string>
+    <string name="campsites_dload_text">Tap button to download
+        image, plus additional info for this campsite</string>
+    <string name="campsites_filter_by">Filter campsites by Region</string>
+    <plurals name="campsites_filter">
+        <item quantity="one">%1$d campsite in %2$s region</item>
+        <item quantity="other">%1$d campsites in %2$s region</item>
+    </plurals>
+    <string name="campsites_header">Campsites List</string>
+    <string name="campsites_map">Campsites Map</string>
+    <string name="campsites_none">Download campsites first</string>
+    <string name="campsites_subtitle">Campsite Details</string>
+
+    <string name="common_bottom_sheet_dismiss">Dismiss</string>
+    <string name="common_details_bookable">Bookable:</string>
+    <string name="common_details_category">Category:</string>
+    <string name="common_details_dog_access"><![CDATA[<B>Dog access:</B> %s]]></string>
+    <string name="common_details_download">Download additional info</string>
+    <string name="common_details_facilities">Facilities:</string>
+    <string name="common_details_intro">Introduction:</string>
+    <string name="common_details_locale">Location:</string>
+    <string name="common_details_place">Place:</string>
+    <string name="common_details_region">Region:</string>  <!-- Header -->
+    <string name="common_details_regions">Regions:</string><!-- Header -->
+    <string name="common_details_status">Status:</string>
+    <string name="common_dialog_cancel">No</string>
+    <string name="common_dialog_confirm">Yes</string>
+
+    <!-- For database searches, these 4 must match exactly as they appear in lists -->
+           <string name="common_dogs_none">No dogs</string>
+       <string name="common_dogs_on_leash">Dogs on a leash</string>
+    <string name="common_dogs_with_permit">Dogs with a DOC permit</string>
+        <string name="common_dogs_allowed">Dogs allowed</string>
+
+    <string name="common_download">Download image</string>
+    <string name="common_downloaded_desc">Details downloaded</string>
+    <string name="common_downloading_preview">Downloading something &#8230;</string>
+
+     <string name="common_filter_by_none">Do not Filter</string>
+    <string name="common_filter_bookable"><![CDATA[Filter by Bookable (applies
+        <BR>to Campsite and Hut lists)]]></string><!-- Also values-w600dp -->
+    <string name="common_filter_dogs">Filter by Dog Access (applies
+        \nto Campsite and Track lists)</string>   <!-- Also values-w600dp -->
+        <string name="common_filter_dogs_title">Filter by Dog Access?</string>
+    <string name="common_filtered_bookable">Bookable</string>
+    <string name="common_filtered_dog_access">Dog access</string>
+     <string name="common_filtered_by">Filtered by: %s</string>
+    <string name="common_filtered_and"><![CDATA[&nbsp;<B>and</B>&nbsp;]]></string>
+    <string name="common_filtered_ellipsis">&#160;&#8230;</string><!-- space -->
+    <string name="common_select_button">Select</string>
+    <string name="common_select_current">Current selection: %s</string>
+
+    <string name="common_map_snippet">%1$s (%2$s)</string>
+    <plurals name="common_regions">
+        <item quantity="one">@string/common_region_1</item>
+        <item quantity="other">@string/common_region_2</item>
+    </plurals>
+    <string name="common_region_1">Region:</string>
+    <string name="common_region_2">Regions:</string>
+    <string name="common_search_clear">Clear</string>
+    <string name="common_search_desc">Manage Search</string>
+    <string name="common_search_by_desc">Search by Description</string>
+    <string name="common_search_by_feat">Search by Facilities</string>
+    <string name="common_search_by_name">Search by Name</string>
+    <string name="common_snackbar_got_it">Got It</string>
+    <string name="common_snackbar_refresh">Refresh</string>
+    <string name="common_sort_by_alpha">Sort by Name</string>
+    <string name="common_share">Share</string>
+    <string name="common_status">Status:</string>
+    <string name="common_fave_add">Add to Favourites</string>
+    <string name="common_fave_rem">Remove from Faves</string>
+    <string name="common_undefined">(undefined)</string>
+
+    <string name="debug_random_msg">Generate random is enabled</string>
+
+    <string name="details_placeholder">Select %s from the list
+        &#8230; or\n\nhit Back to return to Home screen</string>
+    <string name="details_placeholder_alert">an alert</string>
+    <string name="details_placeholder_campsite">a campsite</string>
+    <string name="details_placeholder_hut">a hut</string>
+    <string name="details_placeholder_track">a track</string>
+
+    <string name="dload_alert">Downloading alert &#8230;</string>
+    <string name="dload_alerts">Downloading alerts &#8230;</string>
+    <string name="dload_all_msg">Download all only
+        applies if %s are filtered by region</string>
+    <string name="dload_campsite">Downloading campsite &#8230;</string>
+    <string name="dload_campsites">Downloading campsites &#8230;</string>
+    <string name="dload_done_placeholder">&#160;</string><!-- space -->
+    <string name="dload_error">Download failed &#8230;\n\n%s\nappears
+        to be offline!\n\nPlease try again later</string>
+    <string name="dload_failed">Download
+        failed with message:\n%s</string>
+    <string name="dload_hut">Downloading hut &#8230;</string>
+    <string name="dload_huts">Downloading huts &#8230;</string>
+    <string name="dload_insert">Process coordinates
+        into\ndatabase (takes longer,\nbut will save time later)</string>
+    <string name="dload_region"><![CDATA[%1$s <I>just</I> for<BR>%2$s region?]]>
+        </string>   <!-- e.g. Download tracks just for Bay of Plenty region? -->
+    <string name="dload_retry">Tap button again to retry</string>
+    <string name="dload_track">Downloading track &#8230;</string>
+    <string name="dload_tracks">Downloading tracks &#8230;</string>
+    <string name="dload_timeout">Download timed out!</string>
+
+    <string name="empty_favourites">All favourites removed</string>
+    <string name="empty_filter_bookable">Bookable</string>
+    <string name="empty_filter_by_bookable_and_dogs">There
+        were no %s found</string>
+    <string name="empty_filter_by_region"><![CDATA[There were no
+        %1$s found<BR>in the <B>%2$s</B> region]]></string>
+    <string name="empty_filter_with">with feature:</string>
+    <plurals name="empty_filter_with">
+        <item quantity="one">@string/empty_filter_with</item>
+        <item quantity="other">with features:</item>
+    </plurals>
+    <string name="empty_list"><![CDATA[DoC says there are
+        <B>zero</B> %1$s<BR>in the <B>%2$s</B> region]]></string>
+
+    <string name="faves_button">View Favourites</string>
+    <string name="faves_map">Faves Map</string>
+    <string name="faves_map_subtitle">Showing all Favourites</string>
+    <string name="faves_message"><![CDATA[This action will remove <B>all</B>
+        favourites,<BR>and cannot be undone &#8230; continue?]]></string>
+    <string name="faves_sort_by_desc">Favourites sorted by</string>
+    <string name="faves_sort_by_date">Sort by Date added</string>
+    <string name="faves_sort_by_name">Sort by Name</string>
+    <string name="faves_sort_by_type">Sort by Type</string>
+    <string name="faves_title">Your Favourites (%d)</string>
+
+    <string name="filter_bookable_msg"><![CDATA[Filtering by
+        Bookable <I>only</I> applies<BR>to Campsite and Hut
+        lists &#8230;<BR>Current setting is: %s]]></string>
+    <string name="filter_dogs_msg"><![CDATA[Filtering by Dog Access
+        <I>only</I> applies<BR>to Campsite and Track lists]]></string>
+
+    <string name="forbidden_api_key"><![CDATA[DoC says that the <B>API
+        key</B><BR>provided by this app is <B>invalid</B>]]></string>
+    <string name="found_not_message"><![CDATA[DoC says: %s <B>not found</B>]]></string>
+
+    <string name="help_button">Help</string>
+    <string name="help_intro">
+        <![CDATA[The <B>DoC Outdoors</B> app is intended to provide simple and
+        straightforward listings of the various New Zealand Department of
+        Conservation assets that are maintained for public leisure. As well as
+        Campsites, Huts, and Tracks, there\'s a list of Alerts, which brings to
+        light any current closures and/or hazards on DoC sites. These alerts can
+        be updated automatically within the app, either daily or weekly &#8230;
+        refer to the Settings section below for more on Auto Update.]]></string>
+        <string name="help_lists">
+        <![CDATA[When you view a list for the <I>first</I> time, the app will
+        automatically download those items from DoC servers. Be patient while the
+        list downloads &#8230; for the best experience, please ensure that the
+        download completes before switching to another app or activity.]]></string>
+        <string name="help_items">
+        <![CDATA[When the list appears, you can then view individual items,
+        and optionally download an image, plus further info for that asset
+        (images not for the available for alerts). Also, in the case of
+        Tracks, the map coordinates for the complete track.]]></string>
+        <string name="help_maps">
+        <![CDATA[On that note, you can view one or all items on a map by using
+        the Map Overview icon on the toolbar, or the individual Place icon next to
+        each item\'s location. If no map coordinates are available for that item,
+        the icon will simply be <FONT color="#888888">greyed out</FONT>.]]></string>
+        <string name="help_settings_auto_upd">
+        <![CDATA[In the Settings section of the app, you can enable Auto Update for
+        the Alerts if desired. However, this is <I>only</I> available if the Alerts
+        are filtered by region. Updates can be carried out either Daily or Weekly,
+        <I>without</I> your having to do anything. To customise the update process,
+        there are options for allowing the use of Mobile Data, allowing Notifications
+        (subject to permission on Android 13+ devices), and the option to Wait until
+        the Device is Charging, i.e. overnight, when the device is idle. Once each of
+        these options has been configured, remember to tap the Save button. A bonus with
+        the Auto Update feature is that <I>affected assets</I> info is also downloaded,
+        bypassing the need for you to download these manually, per item.]]></string>
+        <string name="help_settings_filtering">
+        <![CDATA[Also in the Settings section, you\'ll find the option to <B>filter</B>
+        any list by region. Alerts can also be <I>sorted</I> by name if desired, although
+        the default is to show the newest first. There\'s the option to filter Campsites
+        and Huts by <B>bookable</B>, i.e. whether or not you can book them ahead of your
+        trip. Another filter available is <I>just</I> for Campsites and Tracks: <B>dog
+        access</B>. Options for filtering include:<UL><LI>Dogs on a leash</LI><LI>Dogs
+        with a DOC permit</LI><LI>Dogs allowed</LI><LI>and, No dogs</LI></UL>]]></string>
+    <string name="help_settings_extras">
+        <![CDATA[For just Campsites, Huts and Tracks, there are options to <I>also</I>
+        download related extras, <I>if</I> filtered by region. This saves you having to do
+        this manually per item, plus it enables <B>Advanced Search</B> (see Manage Search
+        icon at left) so, instead of searching only by name, you can also search within
+        item descriptions, and for Campsites and Huts, within facilities too.]]></string>
+    <string name="help_settings_tracks">
+        <![CDATA[For just <I>single</I> Track maps, you can choose whether or
+        not to zoom in automatically on a newly downloaded track.]]></string>
+    <string name="help_settings_maps">
+        <![CDATA[Two final settings (for <I>all</I> maps) give you the option to include
+        <I>your</I> own location on maps (subject to permissions); plus selection of
+        the map <I>type</I>, whether Normal (default) or Satellite view.]]></string>
+    <string name="help_title">Help &amp; Intro | Settings</string>
+    <string name="help_subtitle">Help and Introduction</string>
+
+    <string name="home_screen_loading_msg">Preparing database &#8230;</string>
+    <string name="home_screen_filtered_msg">* Filtered</string>
+
+    <string name="huts_button_dl">Download huts</string>
+    <string name="huts_button_upd">Update huts</string>
+    <string name="huts_current_count">%1$d huts Nationwide</string>
+    <string name="hut_details_doc_link"><![CDATA[<B>Hut link:</B> %s]]></string>
+    <string name="hut_details_image">Hut image</string>
+    <string name="hut_details_num_bunks">Number of Bunks:</string>
+    <string name="hut_details_proximity">Proximity to\nroad end:</string>
+    <string name="huts_button">View Huts</string>
+    <string name="huts_dload_all"><![CDATA[Also download hut
+        extras<BR>(only if filtered by region)]]></string><!-- Also values-w600dp -->
+    <string name="huts_dload_count">Found %d huts</string>
+    <string name="huts_dload_not_found">DoC says Hut not found</string>
+    <string name="huts_dload_text">Tap button to download image,
+        plus additional info for this particular hut</string>
+    <string name="huts_filter_by">Filter huts by Region</string>
+    <plurals name="huts_filter">
+        <item quantity="one">%1$d hut in %2$s region</item>
+        <item quantity="other">%1$d huts in %2$s region</item>
+    </plurals>
+    <string name="huts_header">Huts List</string>
+    <string name="huts_map">Huts Map</string>
+    <string name="huts_none">Download huts first</string>
+    <string name="huts_subtitle">Hut Details</string>
+
+    <string name="incomplete_snackbar_message">Only
+        partial list! Refresh from DoC?</string>
+
+    <string name="image_retry">Retry image download</string>
+
+    <string name="label_filter_by">Filter by Region</string>
+
+    <string name="last_updated_none">never</string>
+    <string name="last_updated_now">now</string>
+    <string name="last_updated_text">Updated:</string>
+    <string name="last_updated_tools">Wed, 28 May 2025 02:31:58 GMT+12:00</string>
+    <string name="list_updated_header">List updated:</string>
+    <string name="list_updated_text">List updated: %s</string>
+
+    <string name="loading">Loading</string>
+    <string name="loading_alerts">Loading alerts &#8230;</string>
+    <string name="loading_campsites">Loading campsites &#8230;</string>
+    <string name="loading_failed">Failed to load</string>
+    <string name="loading_faves">Loading faves &#8230;</string>
+    <string name="loading_huts">Loading huts &#8230;</string>
+    <string name="loading_retry">Retry</string>
+    <string name="loading_tracks">Loading tracks &#8230;</string>
+    <string name="loading_try_dload">Try Download</string>
+    <string name="loading_dload_clicked">Downloading &#8230; just a sec</string>
+
+    <string name="location_permission_denied">Location permission required</string>
+    <string name="location_permission_granted">Location permission granted</string>
+    <string name="location_permission_unknown">Location permission unknown</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="map_subtitle_all">All %s Nationwide</string>
+    <string name="map_subtitle_filt">Showing %1$s in %2$s</string>
+
+    <string name="menu_faves_delete_all">Remove all Faves</string>
+    <string name="menu_hide">Hide marked as Read</string>
+     <string name="menu_hide_all">Mark all current Alerts as Read</string>
+    <string name="menu_hide_none">Mark all current Alerts as Unread</string>
+    <string name="menu_map_all">View all on Map</string>
+    <string name="menu_map_one">View on Map</string>
+       <string name="menu_refresh_all">Refresh list from DoC</string>
+    <string name="menu_refresh_alerts">Refresh just Alerts</string>
+    <string name="menu_search_off">Search by Name</string>
+    <string name="menu_search_on">Close/cancel Search</string>
+       <string name="menu_show_location">Show Current Location</string>
+    <string name="menu_optional_buttons">Show Optional Buttons</string>
+       <string name="menu_zoom_controls">Show Zoom Controls</string>
+    <string name="menu_sort_by">Sort By &#8230;</string>
+    <string name="menu_sort_none">Leave Unsorted</string>
+    <string name="menu_sort_name">Sort by Name</string>
+    <string name="menu_sort_open">Sort by Open</string>
+    <string name="menu_sort_time">Sort by Latest</string>
+    <string name="menu_toggle_desc">Toggle Menu</string>
+    <string name="menu_unhide">Mark or Unmark all</string>
+    <string name="menu_zoom_all">Zoom out (all Items)</string>
+
+    <string name="on_back_press_home">Press back again for Home</string>
+    <string name="on_back_press_quit">Press back again to Quit</string>
+    <string name="one_time_snackbar_alerts">Long
+        press requires valid Map coords</string>
+    <string name="one_time_snackbar_default">Tap
+        for Details, or long press for Map</string>
+    <string name="qty_none">Not yet downloaded</string>   <!-- Common -->
+    <string name="region_text">Download required!</string><!-- Common -->
+    <string name="region_prompt">All Regions</string>     <!-- Common -->
+    <string name="region_unknown">(unspecified)</string>  <!-- Common -->
+
+    <string name="search_advanced_not_available">Only
+        if Download Extras enabled</string>
+    <string name="search_result_with_extras">%1$s: %2$s</string>
+
+    <string name="settings_button">Settings</string>
+    <!-- space ... because padding is all weird for settings activity -->
+    <string name="settings_map_header">&#160;Other Map Settings</string>
+    <string name="settings_map_location"><![CDATA[On maps, include/show
+        <BR><I>your</I> Current Location]]></string><!-- Also values-w600dp -->
+    <string name="settings_map_type"><![CDATA[On maps, use Satellite
+        <BR>view (off for Normal)]]></string>       <!-- Also values-w600dp -->
+    <string name="settings_map_zoom"><![CDATA[On map, zoom in to
+        <BR>downloaded track]]></string>            <!-- Also values-w600dp -->
+    <string name="settings_message">This action will reset ALL current
+        settings to their app default values &#8230; continue?</string>
+    <string name="settings_restore">Restore App Defaults</string>
+    <string name="settings_title">App Settings</string>
+    <string name="settings_unsaved_title">Settings not Saved!</string>
+    <string name="settings_unsaved_msg">You\'ve changed Settings for Auto
+        Update, but have not Saved these settings &#8230;\n\nDo you wish
+        to remain on the Settings page, or discard these changes?</string>
+    <string name="settings_unsaved_discard">Discard</string>
+    <string name="settings_unsaved_go_back">Remain</string>
+
+    <string name="snippet_closed">%s (Closed)</string>
+    <string name="snippet_open">%s (Open)</string>
+
+    <string name="tap_item_icon_tools">For an item\'s info (if
+        available),\ntap its type icon at bottom left</string>
+    <string name="toggle_item_visibility">Toggle visibility</string>
+
+    <string name="tracks_button_dl">Download tracks</string>
+    <string name="tracks_button_upd">Update tracks</string>
+    <string name="tracks_current_count">%1$d tracks Nationwide</string>
+    <string name="track_details_activities">Permitted\nactivities:</string>
+    <string name="track_details_distance">Distance:</string>
+    <string name="track_details_doc_link"><![CDATA[<B>Track link:</B> %s]]></string>
+    <string name="track_details_image">Track image</string>
+    <string name="track_details_duration_time">Duration:</string>
+    <string name="track_details_duration_cat">Duration\ncategories:</string>
+    <string name="track_details_duration_kayak">Kayak\nduration:</string>
+    <string name="track_details_mtb_duration_time">MTB duration:</string>
+    <string name="track_details_mtb_duration_cat">MTB duration\ncategories:</string>
+    <string name="track_details_mtb_track_cat">MTB track\ncategories:</string>
+    <string name="track_details_track_cat">Track\ncategories:</string>
+    <string name="track_details_wheeled">Wheelchairs\nand Buggies:</string>
+    <string name="tracks_button">View Tracks</string>
+    <string name="tracks_dload_all"><![CDATA[Also download track
+        extras<BR>(only if filtered by region)]]></string><!-- Also values-w600dp -->
+    <string name="tracks_dload_count">Found %d tracks</string>
+    <string name="tracks_dload_not_found">DoC says Track not found</string>
+    <string name="tracks_dload_text">Tap button to download
+        image, plus additional info and map coordinates</string>
+    <string name="tracks_filter_by">Filter tracks by Region</string>
+    <plurals name="tracks_filter">
+        <item quantity="one">%1$d track in %2$s region</item>
+        <item quantity="other">%1$d tracks in %2$s region</item>
+    </plurals>
+    <string name="tracks_header">Tracks List</string>
+    <string name="tracks_length">Length: %s</string>
+    <string name="tracks_map_branch">Branch: %d</string>
+    <string name="tracks_map_branches">Branches: %d</string>
+    <string name="tracks_map_branch_none">(not yet downloaded)</string>
+    <string name="tracks_map_dl">Download/show track</string>
+    <string name="tracks_map">Tracks Map</string>
+    <string name="tracks_none">Tracks region not set</string>
+    <string name="tracks_subtitle">Track Details</string>
+
+</resources>

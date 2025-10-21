@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100.61dp"
+    android:height="121.65dp"
+    android:viewportWidth="100.61"
+    android:viewportHeight="121.65">
+    <group
+        android:name="animationGroup"
+        android:pivotX="50.305"
+        android:pivotY="60.825">
+        <path
+            android:pathData="m0.54,71.47c0.36,30.88 25.71,50.32 48.53,49.6 23.33,-0.64 50.62,-18.72 51,-49.24V0.55H0.54Z"
+            android:fillColor="#fff"/>
+        <path
+            android:pathData="m47.85,121.65v0C25.12,121.65 0.36,102.46 0,71.48V0h100.61v71.83c-0.36,29.9 -27,49.12 -51.52,49.8zM1.1,1.11v70.36c0.35,30.31 24.54,49.07 46.74,49.07v0h1.21c24,-0.66 50.09,-19.46 50.44,-48.69V1.11Z"
+            android:fillColor="#527f3a"/>
+        <path
+            android:pathData="M65.78,55.41C42.66,28.48 14.8,50.11 14.3,69.52c-0.65,23.69 19,37.3 34.84,36.65 16.42,-0.58 36.15,-12.24 36.65,-34.92h-0.5C82.19,85.87 67.86,87.95 60.45,82.77 51.74,76.65 51.23,60.23 65.78,55.41Z"
+            android:fillColor="#527f3a"
+            android:fillType="evenOdd"/>
+        <path
+            android:pathData="M14.58,38.92V15.02H85.99V69.67H85.41C85.91,39.86 48.69,10.55 14.63,38.92Z"
+            android:fillColor="#1e87c9"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>

@@ -1,0 +1,61 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ComposePreviewDimensionRespectsLimit" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="WARNING" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="ComposePreviewMustBeTopLevelFunction" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="ComposePreviewNeedsComposableAnnotation" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="ComposePreviewNotSupportedInUnitTestFiles" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="GlancePreviewDimensionRespectsLimit" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="WARNING" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="GlancePreviewMustBeTopLevelFunction" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="GlancePreviewNeedsComposableAnnotation" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="GlancePreviewNotSupportedInUnitTestFiles" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewAnnotationInFunctionWithParameters" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewApiLevelMustBeValid" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewDeviceShouldUseNewSpec" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="WEAK WARNING" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewFontScaleMustBeGreaterThanZero" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewMultipleParameterProviders" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewParameterProviderOnFirstParameter" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+    <inspection_tool class="PreviewPickerAnnotation" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" level="ERROR" enabled_by_default="$ANDROID_EMULATOR_FORCE_32BIT$">
+      <option name="composableFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+      <option name="previewFile" value="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </inspection_tool>
+  </profile>
+</component>

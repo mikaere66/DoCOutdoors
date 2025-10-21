@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alerts_work_manager">Automatically update
+        alerts (only if filtered by region)</string>
+    <string name="alerts_sort_by_latest">Sort alerts
+        by Latest (off to Sort by Name)</string>
+    <string name="alerts_work_man_chg">Wait until Device
+        charging (i.e. overnight, when idle)</string>
+    <string name="campsites_dload_all">Also download campsite
+        extras (only if filtered by region)</string>
+    <string name="common_filter_bookable">Filter by Bookable
+        (applies to Campsite and Hut lists)</string>
+    <string name="common_filter_dogs">Filter by Dog Access
+        (applies to Campsite and Track lists)</string>
+    <string name="huts_dload_all">Also download hut
+        extras (only if filtered by region)</string>
+    <string name="settings_map_location"><![CDATA[On maps,
+        include/show <I>your</I> Current Location]]></string>
+    <string name="settings_map_type">On maps, use
+        Satellite view (off for Normal)</string>
+    <string name="settings_map_zoom">On map,
+        zoom in to downloaded track</string>
+    <string name="tracks_dload_all">Also download track
+        extras (only if filtered by region)</string>
+
+</resources>

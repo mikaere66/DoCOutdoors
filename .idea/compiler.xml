@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="$ANDROID_EMULATOR_FORCE_32BIT$" name="Default" enabled="$ANDROID_EMULATOR_FORCE_32BIT$" />
+    </annotationProcessing>
+    <bytecodeTargetLevel target="21" />
+  </component>
+</project>

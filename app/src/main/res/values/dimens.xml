@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_width_large">250dp</dimen>
+    <dimen name="button_width_small">120dp</dimen>
+
+    <dimen name="card_corner_shape">8dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="image_size_item">140dp</dimen>
+    <dimen name="image_size_logo">64dp</dimen>
+    <dimen name="image_padding_logo">@dimen/padding_medium</dimen>
+
+    <dimen name="list_padding">@dimen/padding_small</dimen>
+    <dimen name="list_spacing">@dimen/padding_small</dimen>
+
+    <dimen name="loading_anim_size">200dp</dimen>
+
+    <dimen name="min_download_height">48dp</dimen>
+
+    <dimen name="padding_circular_progress">@dimen/padding_small</dimen>
+    <dimen name="padding_content_card">@dimen/padding_small</dimen>
+      <dimen name="padding_mega">32dp</dimen>
+     <dimen name="padding_great">24dp</dimen>
+     <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+      <dimen name="padding_small">8dp</dimen>
+       <dimen name="padding_mini">4dp</dimen>
+      <dimen name="padding_micro">2dp</dimen>
+       <dimen name="padding_nano">1dp</dimen>
+       <dimen name="padding_none">0dp</dimen>
+
+    <dimen name="subtitle_font_size">16sp</dimen>
+
+    <dimen name="vertical_spacing">@dimen/padding_small</dimen>
+
+</resources>
