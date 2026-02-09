@@ -32,7 +32,7 @@ fun OutdoorsMap(
                 permissionGranted
             ),
             mapType = when (satelliteView == 1) {
-                true -> MapType.SATELLITE
+                true -> MapType.HYBRID
                 else -> MapType.NORMAL
             }
         )

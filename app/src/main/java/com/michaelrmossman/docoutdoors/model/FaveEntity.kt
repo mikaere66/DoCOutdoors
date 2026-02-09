@@ -9,8 +9,6 @@ import com.michaelrmossman.docoutdoors.database.HutsDao
 import com.michaelrmossman.docoutdoors.database.TracksDao
 import com.michaelrmossman.docoutdoors.database.TABLE_NAME_FAVES
 import com.michaelrmossman.docoutdoors.enums.AssetType
-import com.michaelrmossman.docoutdoors.utils.parseMillisToKiwiDate
-import com.michaelrmossman.docoutdoors.utils.parseKiwiDateToMillis
 import kotlinx.coroutines.flow.first
 
 @Entity(tableName = TABLE_NAME_FAVES) // ∞

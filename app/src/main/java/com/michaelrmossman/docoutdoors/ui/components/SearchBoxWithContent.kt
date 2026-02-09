@@ -135,22 +135,13 @@ fun SearchBox(
             shape = RoundedCornerShape(10.dp),
             colors = TextFieldDefaults.colors(),
             leadingIcon = {
-//                when (advancedSearch) {
-//                    true -> 
-                    SearchActionMenu(
-                        advancedSearch = advancedSearch,
-                        enableFeatSearch = enableFeatSearch,
-                        onAdvSearchNotAvailClick =
-                                onAdvSearchNotAvailClick,
-                        onSearchByClick = onSearchByClick
-                    )
-//                    else -> Icon(
-//                        imageVector = Icons.Outlined.Search,
-//                        contentDescription = stringResource(
-//                            R.string.common_search_desc
-//                        )
-//                    )
-//                }
+                SearchActionMenu(
+                    advancedSearch = advancedSearch,
+                    enableFeatSearch = enableFeatSearch,
+                    onAdvSearchNotAvailClick =
+                            onAdvSearchNotAvailClick,
+                    onSearchByClick = onSearchByClick
+                )
             },
             trailingIcon = {
                 IconButton(

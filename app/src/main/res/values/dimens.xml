@@ -33,6 +33,6 @@
 
     <dimen name="subtitle_font_size">16sp</dimen>
 
-    <dimen name="vertical_spacing">@dimen/padding_small</dimen>
+    <dimen name="vertical_spacing">8dp</dimen>
 
 </resources>

@@ -45,6 +45,8 @@ android {
     namespace = "com.michaelrmossman.docoutdoors"
     secrets {
         defaultPropertiesFileName = "local.defaults.properties"
+        /* Create file "secrets.properties" with API keys:
+           refer to "local.defaults.properties" for format */
         propertiesFileName = "secrets.properties"
     }
 }
@@ -66,7 +68,6 @@ dependencies {
     implementation(libs.androidx.material3.navigation3)
 
     implementation(libs.accompanist.permissions)
-    implementation(libs.androidx.lifecycle.viewmodel.navigation3)
     implementation(libs.androidx.navigation3.runtime)
     implementation(libs.androidx.navigation3.ui)
     implementation(libs.androidx.material.icons.extended)

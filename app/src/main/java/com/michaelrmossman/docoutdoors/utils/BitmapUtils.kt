@@ -15,7 +15,7 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory
 private const val TAG = "BitmapUtils"
 
 /**
- * Customizable set of parameters for generating a [BitmapDescriptor] for use a a map marker.
+ * Customizable set of parameters for generating a [BitmapDescriptor] for use as a map marker.
  */
 data class BitmapParameters(
     @DrawableRes val id: Int,

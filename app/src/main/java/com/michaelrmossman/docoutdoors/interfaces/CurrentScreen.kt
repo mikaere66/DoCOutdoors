@@ -12,11 +12,6 @@ sealed interface CurrentScreen: NavKey {
 
     @Serializable
     data object AlertsList: CurrentScreen
-//    data class AlertsList(val itemId: String) : CurrentScreen {
-//        companion object {
-//            val deepLink = navDeepLink("app://example.com/detail/{itemId}")
-//        }
-//    }
     @Serializable
     data class AlertDetails(
         val index: Int

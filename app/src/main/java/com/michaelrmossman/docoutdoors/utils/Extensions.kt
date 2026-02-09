@@ -25,7 +25,6 @@ import com.michaelrmossman.docoutdoors.R
 import com.michaelrmossman.docoutdoors.model.Alert
 import java.text.ParseException
 import java.text.SimpleDateFormat
-import java.util.Date
 import java.util.Locale
 
 /**
@@ -103,12 +102,12 @@ fun Double.isNegative(): Boolean {
     return this < 0.0
 }
 
-fun Long.parseMillisToKiwiDate(): String {
-    return SimpleDateFormat(
-        /* UK uses lowercase AM/PM */
-        KIWI_UPDATE_FORMAT, Locale.UK
-    ).format(Date(this))
-}
+//fun Long.parseMillisToKiwiDate(): String {
+//    return SimpleDateFormat(
+//        /* UK uses lowercase AM/PM */
+//        KIWI_UPDATE_FORMAT, Locale.UK
+//    ).format(Date(this))
+//}
 
 @Composable
 fun String.markerColors(): IconColor {
@@ -144,13 +143,13 @@ fun String.fromHtml(): AnnotatedString {
     )
 }
 
-fun String.parseKiwiDateToMillis(): Long {
-    val dateFormat = SimpleDateFormat(
-        KIWI_UPDATE_FORMAT, Locale.getDefault()
-    )
-    val date = dateFormat.parse(this)
-    return date?.time ?: 0L // Note elvis op
-}
+//fun String.parseKiwiDateToMillis(): Long {
+//    val dateFormat = SimpleDateFormat(
+//        KIWI_UPDATE_FORMAT, Locale.getDefault()
+//    )
+//    val date = dateFormat.parse(this)
+//    return date?.time ?: 0L // Note elvis op
+//}
 
 fun String.parseStringDateToMillis(): Long {
     return try {
