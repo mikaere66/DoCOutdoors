@@ -257,7 +257,7 @@
         <string name="help_items">
         <![CDATA[When the list appears, you can then view individual items,
         and optionally download an image, plus further info for that asset
-        (images not for the available for alerts). Also, in the case of
+        (images not available for the alerts). Also, in the case of
         Tracks, the map coordinates for the complete track.]]></string>
         <string name="help_maps">
         <![CDATA[On that note, you can view one or all items on a map by using
