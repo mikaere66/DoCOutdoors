@@ -956,6 +956,7 @@ fun DividerItem() {
     )
 }
 
+@Suppress("AssignedValueIsNeverRead")
 @Composable
 fun FilterItem(
     @StringRes filterByStringId: Int,
